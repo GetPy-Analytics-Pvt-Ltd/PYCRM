@@ -1,0 +1,157 @@
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\ProjectTestWpfApp.exe.config
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\ProjectTestWpfApp.exe
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\ProjectTestWpfApp.pdb
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\Dapper.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\System.Data.SQLite.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\Dapper.pdb
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\Dapper.xml
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\System.Data.SQLite.xml
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\MainWindow.g.cs
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ViewWindow.g.cs
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\App.g.cs
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ProjectTestWpfApp_MarkupCompile.cache
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ProjectTestWpfApp_MarkupCompile.lref
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\MainWindow.baml
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ViewWindow.baml
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ProjectTestWpfApp.g.resources
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ProjectTestWpfApp.Properties.Resources.resources
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ProjectTestWpfApp.csproj.GenerateResource.cache
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ProjectTestWpfApp.csproj.CopyComplete
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ProjectTestWpfApp.exe
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ProjectTestWpfApp.pdb
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\FontAwesome.WPF.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\FontAwesome.WPF.xml
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\MaterialDesignColors.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\MaterialDesignColors.pdb
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\App.baml
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ProjectTestWpfApp.csproj.CoreCompileInputs.cache
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\WpfAppDataBase.db
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\localDB.mdf
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\localDB_log.ldf
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\ProjectTestWpfApp.exe.config
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\ProjectTestWpfApp.exe
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\ProjectTestWpfApp.pdb
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\Dapper.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\FontAwesome.WPF.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\MaterialDesignColors.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\System.Data.SQLite.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\Dapper.pdb
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\Dapper.xml
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\FontAwesome.WPF.xml
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\MaterialDesignColors.pdb
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\System.Data.SQLite.xml
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ProjectTestWpfApp.csprojAssemblyReference.cache
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\MainWindow.g.cs
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\TempWin.g.cs
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ViewDetailsSubWindow.g.cs
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ViewWindow.g.cs
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\App.g.cs
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ProjectTestWpfApp_Content.g.cs
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ProjectTestWpfApp_MarkupCompile.cache
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ProjectTestWpfApp_MarkupCompile.lref
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\App.baml
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\MainWindow.baml
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\TempWin.baml
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ViewDetailsSubWindow.baml
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ViewWindow.baml
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ProjectTestWpfApp.g.resources
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ProjectTestWpfApp.Properties.Resources.resources
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ProjectTestWpfApp.csproj.GenerateResource.cache
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ProjectTestWpfApp.csproj.CoreCompileInputs.cache
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ProjectTestWpfApp.csproj.CopyComplete
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ProjectTestWpfApp.exe
+C:\Users\getpy\source\repos\ProjectTestWpfApp Original\obj\Debug\ProjectTestWpfApp.pdb
+C:\Users\getpy\source\repos\ProjectTestWpfApp\bin\Debug\InfoConfig.db
+C:\Users\getpy\source\repos\ProjectTestWpfApp\obj\Debug\ProjectTestWpfApp.csprojAssemblyReference.cache
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\InfoConfig.db
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\ProjectTestWpfApp.exe.config
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\ProjectTestWpfApp.exe
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\ProjectTestWpfApp.pdb
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\Dapper.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\FontAwesome.WPF.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\MaterialDesignColors.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\System.Data.SQLite.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\Dapper.pdb
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\Dapper.xml
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\FontAwesome.WPF.xml
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\MaterialDesignColors.pdb
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\System.Data.SQLite.xml
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\System.Data.SQLite.dll.config
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\cs-CZ\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ProjectTestWpfApp.csprojAssemblyReference.cache
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\MainWindow.g.cs
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ViewWindow.g.cs
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\App.g.cs
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ProjectTestWpfApp_MarkupCompile.cache
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ProjectTestWpfApp_MarkupCompile.lref
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\App.baml
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\MainWindow.baml
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ViewWindow.baml
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ProjectTestWpfApp.g.resources
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ProjectTestWpfApp.Properties.Resources.resources
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ProjectTestWpfApp.csproj.GenerateResource.cache
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ProjectTestWpfApp.csproj.CoreCompileInputs.cache
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ProjectTestWpfApp.csproj.CopyComplete
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ProjectTestWpfApp.exe
+C:\Users\getpy\Desktop\WORK\PY CRM Code\PYCRM\PyCrm\obj\Debug\ProjectTestWpfApp.pdb

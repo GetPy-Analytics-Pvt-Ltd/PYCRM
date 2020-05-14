@@ -1,0 +1,132 @@
+﻿<Window x:Class="PYCRM.ViewWindow"
+        Name="subWindow_View"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PYCRM"
+        mc:Ignorable="d"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        WindowStyle="SingleBorderWindow"
+        Title="View Details" Height="470" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Border Margin="10">
+        <StackPanel>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition />
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition Width="300"/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition Width="40"/>
+                </Grid.ColumnDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Margin="10 0 2 0">Search By:</Label>
+                <ComboBox x:Name="searchBy" SelectedValuePath="Tag" Grid.Row="1" Grid.Column="0" SelectedIndex="1" >
+                    <ComboBox.Items>
+                        <ComboBoxItem Tag="id">Customer ID</ComboBoxItem>
+                        <ComboBoxItem Tag="number">Mobile Number</ComboBoxItem>
+                        <ComboBoxItem Tag="name">Customer Name</ComboBoxItem>
+                        <ComboBoxItem Tag="email">Email</ComboBoxItem>
+                        <ComboBoxItem Tag="agegroup">Age Group</ComboBoxItem>
+                        <ComboBoxItem Tag="ethnicity">Ethnicity</ComboBoxItem>
+                        <ComboBoxItem Tag="area">Area</ComboBoxItem>
+                        <ComboBoxItem Tag="city">City</ComboBoxItem>
+                        <ComboBoxItem Tag="state">State</ComboBoxItem>
+                        <ComboBoxItem Tag="dtcreated">Creation Date</ComboBoxItem>
+                        <ComboBoxItem Tag="dtmodify">Modification Date</ComboBoxItem>
+                        <ComboBoxItem Tag="remark">Remark</ComboBoxItem>
+                    </ComboBox.Items>
+                </ComboBox>
+                <xctk:WatermarkComboBox Grid.Row="1" Grid.Column="2" IsEditable="True" KeyUp="SearchBox_KeyUp" x:Name="SearchBox" />
+                <Button HorizontalContentAlignment="Center" Grid.Row="1" Grid.Column="4" Name="searchButton" Click="searchButton_Click" >
+                    <fa:FontAwesome Name="searchIcon" FontSize="16" Icon="Search"/>
+                </Button>
+
+            </Grid>
+            <Grid>
+                <!-- <Grid.Resources>
+                    <SolidColorBrush x:Key="{x:Static SystemColors.HighlightBrushKey}" Color="#FF0000" />
+                    <Style TargetType="DataGridCell">
+                        <Style.Triggers>
+                            <Trigger Property="DataGridCell.IsSelected" Value="True">
+                                <Setter Property="Background" Value="Blue"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                    <Style TargetType="DataGridRow">
+                            <Style.Triggers>
+                            <Trigger Property="DataGridCell.IsMouseOver" Value="True">
+                                <Setter Property="Background" Value="Green"/>
+                            </Trigger>
+                        </Style.Triggers>
+                    </Style>
+                </Grid.Resources> -->
+                <DataGrid Height="300" Width="auto" Name="viewPart"
+                      SelectionMode="Extended"
+                      CanUserResizeRows="False"
+                      HorizontalContentAlignment="Center"
+                      IsReadOnly="True"
+                      Margin="0 10 0 0"
+                      AutoGenerateColumns="False" LostFocus="viewPart_LostFocus" GotFocus="viewPart_GotFocus" SelectionChanged="ViewPart_SelectionChanged" >
+                    <DataGrid.CellStyle>
+                        <Style TargetType="DataGridCell">
+                            <Setter Property="Padding" Value="5"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type DataGridCell}">
+                                        <Border Padding="{TemplateBinding Padding}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" SnapsToDevicePixels="True">
+                                            <ContentPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="TextBlock.TextAlignment" Value="Center" />
+                        </Style>
+                    </DataGrid.CellStyle>
+                    <DataGrid.ColumnHeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Padding" Value="8"/>
+                        </Style>
+                    </DataGrid.ColumnHeaderStyle>
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Binding="{Binding id}" Width="auto" Header="Customer ID"/>
+                        <DataGridTextColumn x:Name="moblie" Binding="{Binding number}" Width="auto" Header="Mobile Number"/>
+                        <DataGridTextColumn Binding="{Binding name}" Width="auto" Header="Customer Name"/>
+                        <DataGridTextColumn Binding="{Binding email}" Width="auto" Header="Email"/>
+                        <DataGridTextColumn Binding="{Binding agegroup }" Width="auto" Header="Age Group"/>
+                        <DataGridTextColumn Binding="{Binding ethnicity}" Width="auto" Header="Ethnicity"/>
+                        <DataGridTextColumn Binding="{Binding area}" Width="auto" Header="Area"/>
+                        <DataGridTextColumn  Binding="{Binding city}" Width="auto" Header="City"/>
+                        <DataGridTextColumn  Binding="{Binding state}" Width="auto" Header="State"/>
+                        <DataGridTextColumn Binding="{Binding pin}" Width="auto" Header="Pin"/>
+                        <DataGridTextColumn Binding="{Binding referredby}" Width="auto" Header="Referred By"/>
+                        <DataGridTextColumn Binding="{Binding remark}" Width="auto" Header="Remark"/>
+                        <DataGridTextColumn Binding="{Binding dtcreated}" Width="auto" Header="Creation Date"/>
+                        <DataGridTextColumn Binding="{Binding dtmodify}" Width="auto" Header="Modification Date"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </Grid>
+
+            <Grid Margin="10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="5"/>
+                    <ColumnDefinition Width="100"/>
+                </Grid.ColumnDefinitions>
+                <Button  x:Name="Delete" Grid.Column="0" Content="Delete" Click="Delete_Click"/>
+                <Button x:Name="Modify" Grid.Column="2" Content="Modify" Click="Modify_Click"/>
+                <Button x:Name="PrintDemo" Grid.Column="4" Content="Save as CSV" Click="PrintDemo_Click"/>
+            </Grid>
+            <TextBox x:Name="tempbox" Visibility="Hidden"></TextBox>
+        </StackPanel>
+    </Border>
+    
+    
+</Window>

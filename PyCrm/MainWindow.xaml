@@ -1,0 +1,314 @@
+﻿<Window x:Class="PYCRM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PYCRM"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        WindowStyle="None"
+        ResizeMode="CanMinimize"
+        mc:Ignorable="d"  FontWeight="SemiBold" FontSize="12"
+        Title="PY CRM" Height="auto" Width="400" SizeToContent="Height"
+        MouseDown="Window_MouseDown"
+        AllowsTransparency="True"
+        BorderThickness="2"
+        BorderBrush="#9a2020"
+        WindowStartupLocation="CenterScreen">
+    <Window.Resources>
+        <Style TargetType="xctk:WatermarkTextBox" x:Key="remark" >
+            
+        </Style>
+        <Style TargetType="{x:Type Border}">
+            <Setter Property="CornerRadius" Value="5"/>
+        </Style>
+        
+        <Style TargetType="{x:Type Border}" x:Key="SubContainer">
+            <Setter Property="CornerRadius" Value="4"/>
+            <Setter Property="Padding" Value="5 2 5 2"/>
+            <Setter Property="Margin" Value="2"/>
+            <Setter Property="Background" Value="white"/>
+        </Style>
+        
+        <Style TargetType="{x:Type Label}" x:Key="settingLabel">
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Normal"/>
+        </Style>
+        
+        <Style TargetType="{x:Type CheckBox}" >
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Regular"/>
+        </Style>
+    </Window.Resources>
+
+    <Border>
+        <StackPanel>
+            <Border x:Name="titleBar" CornerRadius="10" Margin="-1">
+                <Grid Background="#9a2020">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="90"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Name="view" Margin="2" Click="view_Click" Grid.Column="0">View Details</Button>
+                    <Label Padding="6" VerticalAlignment="Center" Foreground="White" Grid.Column="1" HorizontalAlignment="Center" >PY CRM</Label>
+                    <Grid Grid.Column="2" HorizontalAlignment="Center">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="2"/>
+                            <ColumnDefinition Width="40"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="0" Margin="2"  >
+                            <fa:FontAwesome FontSize="16" Icon="bell" />
+                        </Button>
+                        <Button Name="settingBtn" Grid.Column="2" Margin="2" Click="settingBtn_Click" >
+                            <fa:FontAwesome FontSize="16" Icon="Gear" />
+                        </Button>
+                    </Grid>
+                </Grid>
+            </Border>
+            <Border Padding="4 2 4 2" Margin="0 0 0 2" Background="#e6e6e6" CornerRadius="0">
+                <StackPanel x:Name="settingWindow" Visibility="Collapsed" local:EnterKeyTraversal.IsEnabled="True">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="40"/>
+                            <ColumnDefinition Width="5"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Name="SettingBackBtn" Grid.Column="0" Margin="1" Click="SettingBackBtn_Click">
+                            <fa:FontAwesome FontSize="16" Icon="ArrowLeft"></fa:FontAwesome>
+                            <Button.Resources>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="CornerRadius" Value="25"/>
+                                </Style>
+                            </Button.Resources>
+                        </Button>
+                        <Border  Grid.Column="2" Style="{StaticResource SubContainer}" >
+                            <Grid VerticalAlignment="Center">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="5"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Style="{StaticResource settingLabel}" HorizontalAlignment="Center" FontWeight="DemiBold" FontSize="16" VerticalAlignment="Center" Grid.Column="0">Settings</Label>
+                                <Button Margin="2" Grid.Column="2" Name="saveSettingsBtn" Content="Save" Click="saveSettingsBtn_Click"/>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                    <Border  Grid.Column="2" Style="{StaticResource SubContainer}" >
+                        <Grid VerticalAlignment="Center">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="2*"/>
+                                <ColumnDefinition Width="5"/>
+                                <ColumnDefinition Width="3*"/>
+                            </Grid.ColumnDefinitions>
+                            <Label Style="{StaticResource settingLabel}" VerticalAlignment="Center" Grid.Column="0">Merchant ID</Label>
+                            <xctk:WatermarkTextBox Margin="0 1 0 4" x:Name="merchantIDTextBox" Grid.Column="2" Padding="2" Watermark=""/>
+                        </Grid>
+                    </Border>
+                    <Border Style="{StaticResource SubContainer}">
+                        <StackPanel>
+                            <Label Padding="0" VerticalAlignment="Center" FontSize="14" Grid.Column="0">Default Values</Label>
+                            <Grid Margin="20 0 0 0">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="5"/>
+                                    <ColumnDefinition Width="3*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <Label Style="{StaticResource settingLabel}" Padding="0" VerticalAlignment="Center"  Grid.Column="0" Grid.Row="0">Country Code</Label>
+                                <xctk:WatermarkTextBox Margin="0 1 0 4"  x:Name="countryCodeSettingBox" Grid.Column="2" Grid.Row="0" Padding="2" Watermark=""/>
+                                <Label Style="{StaticResource settingLabel}" Padding="0" VerticalAlignment="Center"  Grid.Column="0" Grid.Row="1">City</Label>
+                                <xctk:WatermarkTextBox Margin="0 1 0 4"  x:Name="citySettingBox" Grid.Column="2" Grid.Row="1" Padding="2" Watermark=""/>
+                                <Label Style="{StaticResource settingLabel}" Padding="0" VerticalAlignment="Center" Grid.Column="0" Grid.Row="2">State</Label>
+                                <xctk:WatermarkTextBox Margin="0 1 0 4"  x:Name="stateSettingbix" Grid.Column="2" Grid.Row="2" Padding="2" Watermark=""/>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                    <Border Style="{StaticResource SubContainer}">
+                        <StackPanel>
+                            <Label Padding="0" VerticalAlignment="Center" FontSize="14" Grid.Column="0">Mendatory Fields</Label>
+                            <Grid Margin="20 2 0 0" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="2*"/>
+                                    <ColumnDefinition Width="5"/>
+                                    <ColumnDefinition Width="3*"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
+                                </Grid.RowDefinitions>
+                                <CheckBox Grid.Column="0" Grid.Row="1" Name="selectNumber" IsEnabled="False" IsChecked="True" >Mobile Number</CheckBox>
+                                <CheckBox Grid.Column="2" Grid.Row="1" Name="selectName" IsChecked="True" >Customer Nmae</CheckBox>
+                                <CheckBox Grid.Column="0" Grid.Row="2" Name="selectEmail" >E-Mail</CheckBox>
+                                <CheckBox Grid.Column="2" Grid.Row="2" Name="selectDoB" >Date of Birth</CheckBox>
+                                <CheckBox Grid.Column="0" Grid.Row="3" Name="selectAoB" >Anniversary Date</CheckBox>
+                            </Grid>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Border>
+            <Border>
+                <StackPanel x:Name="homewindow" Visibility="Visible">
+                    <Border Padding="4 0 4 2">
+                        <!--Main Pane-->
+                        <StackPanel>
+
+                            <!--Basic Details -->
+                            <Border Padding="5" Background="#e6e6e6" Margin="0 0 0 2">
+                                <StackPanel Name="basic" local:EnterKeyTraversal.IsEnabled="True">
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="auto"/>
+                                            <ColumnDefinition Width="5"/>
+                                            <ColumnDefinition Width="auto"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Grid.Column="0">Mobile Number</TextBlock>
+                                        <Label 
+                                            Grid.Column="2"
+                                            Padding="0"
+                                            x:Name="numberError"
+                                            Content="* Please Enter Mobile Number and Name"
+                                            Foreground="Red"
+                                            FontSize="10"
+                                            FontWeight="Bold"
+                                            Visibility="Hidden"
+                                            HorizontalAlignment="Left"/>
+                                    </Grid>
+                                    <Grid >
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="5"/>
+                                            <ColumnDefinition Width="6*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <xctk:WatermarkTextBox Margin="0 1 0 4"   x:Name="countryCode" TextAlignment="Right" Grid.Column="0" Padding="2" />
+                                        <xctk:WatermarkComboBox StaysOpenOnEdit="True"   IsEditable="True" Watermark="(xxx)-xxx-xxxx" Margin="0 1 0 4" x:Name="mobileNumber" Grid.Column="2" Padding="2" PreviewTextInput="MobileNumber_PreviewTextInput" LostFocus="mobileNumber_LostFocus" GotFocus="mobileNumber_GotFocus" GotKeyboardFocus="mobileNumber_GotKeyboardFocus" SelectionChanged="mobileNumber_SelectionChanged"/>
+                                    </Grid>
+                                    <xctk:WatermarkComboBox IsEditable="True"  Margin="0 1 0 4"  x:Name="CustomerName" Padding="2"  Watermark="Full name" PreviewTextInput="CustomerName_PreviewTextInput"/>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="2*"/>
+                                            <ColumnDefinition Width="5"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <xctk:WatermarkTextBox x:Name="emailPart1" Grid.Column="0" Watermark="E-mail"/>
+                                        <xctk:WatermarkComboBox Name="emailPart2" IsEditable="True" SelectedIndex="0" Grid.Column="2" GotFocus="OpenComboBoxDropDown" >
+                                        </xctk:WatermarkComboBox>
+                                    </Grid>
+
+                                </StackPanel>
+                            </Border>
+                            <!--Basic Details(END)-->
+
+                            <!--Personal Details-->
+                            <Border
+                                x:Name="personalDetails"
+                                Padding="5"
+                                Background="#e6e6e6"
+                                Visibility="Collapsed"
+                                Margin="0 2 0 2" >
+                                <!-- <Expander Header="Personal Details" FontWeight="Bold" FontSize="14" IsExpanded="True"  FlowDirection="RightToLeft">
+                    <Expander.HeaderTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding RelativeSource={RelativeSource AncestorType=Expander}, Path=Header}"
+                       Width="{Binding RelativeSource={RelativeSource AncestorType=Expander}, Path=ActualWidth}" 
+                       Margin="-30,0,0,0"
+                       FlowDirection="LeftToRight">
+                            </TextBlock>
+                        </DataTemplate>
+                    </Expander.HeaderTemplate> -->
+                                <StackPanel local:EnterKeyTraversal.IsEnabled="True">
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="5"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <TextBlock Grid.Row="0" Grid.Column="0" >Date of Birth</TextBlock>
+                                        <xctk:DateTimePicker Grid.Row="1" Grid.Column="0" Watermark="d/m" Name="dateDoB" Format="MonthDay" AutoCloseCalendar="True"/>
+                                        <TextBlock Grid.Row="0" Grid.Column="2" >Anniversary Date</TextBlock>
+                                        <xctk:DateTimePicker Grid.Row="1" Grid.Column="2" Watermark="d/m" Name="dateAnniv" Format="MonthDay" AutoCloseCalendar="True"/>
+                                    </Grid>
+                                    <xctk:WatermarkComboBox IsEditable="True" Name="gender" Margin="0 4 0 4" Grid.Column="2" Padding="3" Watermark="Gender" GotFocus="OpenComboBoxDropDown" />
+                                    <xctk:WatermarkComboBox IsEditable="True" Name="ageGroup" Margin="0 1 0 4" Grid.Column="2" Padding="3" Watermark="Age Group" GotFocus="OpenComboBoxDropDown" />
+                                    <xctk:WatermarkComboBox IsEditable="True" Name="ethnicity" Margin="0 1 0 4"  Grid.Column="2" Padding="3" Watermark="Ethnicity" GotFocus="OpenComboBoxDropDown" PreviewTextInput="ethnicity_PreviewTextInput" />
+                                    <TextBlock>Address</TextBlock>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="*" />
+                                            <RowDefinition Height="*" />
+                                        </Grid.RowDefinitions>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="5"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <xctk:WatermarkComboBox StaysOpenOnEdit="True" Name="area" IsEditable="True" Margin="0 1 0 4" Padding="2" Grid.Column="0" Grid.Row="0" Watermark="Area" GotFocus="OpenComboBoxDropDown"/>
+                                        <xctk:WatermarkComboBox Name="city" SelectedIndex="0" IsEditable="True" Margin="0 1 0 4"  Grid.Column="2" Grid.Row="0" Padding="3" Watermark="City" GotFocus="OpenComboBoxDropDown" />
+                                        <xctk:WatermarkTextBox x:Name="pinCode" MaxLength="6" Margin="0 1 0 4"  Padding="2" Grid.Column="0" Grid.Row="1" Watermark="PIN Code"  PreviewTextInput="pinCode_PreviewTextInput" />
+                                        <xctk:WatermarkComboBox Name="state" SelectedIndex="0" IsEditable="True" Margin="0 1 0 4"  Grid.Column="2" Grid.Row="1" Padding="3" Watermark="State" GotFocus="OpenComboBoxDropDown" />
+                                    </Grid>
+
+                                </StackPanel>
+                            </Border>
+                            <!--Personal Details(END)-->
+
+                            <!--More-->
+                            <Border 
+                x:Name="moreDetails"
+                Padding="5"
+                Visibility="Collapsed"
+                Background="#e6e6e6"
+                Margin="0 2 0 2" >
+                                <StackPanel local:EnterKeyTraversal.IsEnabled="True">
+                                    <TextBlock >Referred By</TextBlock>
+                                    <Grid>
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="*"/>
+                                            <ColumnDefinition Width="5"/>
+                                            <ColumnDefinition Width="6*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <xctk:WatermarkTextBox Margin="0 1 0 4"  x:Name="refCountryCode" Grid.Column="0" Padding="2" />
+                                        <xctk:WatermarkComboBox IsEditable="True" Margin="0 1 0 4"  x:Name="refMobileNumber" Grid.Column="2" Padding="2" Watermark="(xxx)-xxx-xxxx" GotFocus="OpenComboBoxDropDown"/>
+                                    </Grid>
+                                    <Grid>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="70" />
+                                        </Grid.RowDefinitions>
+                                        <xctk:WatermarkTextBox Style="{StaticResource remark}" Margin="0 1 0 4"  x:Name="remark" Padding="2" Watermark="Remark" TextWrapping="Wrap"/>
+                                    </Grid>
+                                    </StackPanel>
+                            </Border>
+                            <!--More(END)-->
+                            <Border Padding="5" Background="#e6e6e6" Margin="0 2 0 2">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="5"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="5"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    <Button  Name="SaveSend" IsEnabled="False" Content="Save and Send" Grid.Column="0"/>
+                                    <Button Name="Submit" Command="{x:Static local:MainWindow.SaveCmd}" Content="Save" Grid.Column="2"  />
+                                    <Button  Name="Reset" Command="{x:Static local:MainWindow.ResetCmd}" Content="Reset" Grid.Column="4" />
+                                </Grid>
+                            </Border>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Border>
+        </StackPanel>
+    </Border>
+</Window>

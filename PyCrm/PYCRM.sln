@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PYCRM", "PYCRM.csproj", "{3D30F068-D2E7-4E39-92C1-18AA5013155E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PYSERVER", "..\PYSERVER\PYSERVER.csproj", "{29A1D118-9CAD-4658-82C4-B142821E11A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D30F068-D2E7-4E39-92C1-18AA5013155E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D30F068-D2E7-4E39-92C1-18AA5013155E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D30F068-D2E7-4E39-92C1-18AA5013155E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D30F068-D2E7-4E39-92C1-18AA5013155E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29A1D118-9CAD-4658-82C4-B142821E11A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29A1D118-9CAD-4658-82C4-B142821E11A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29A1D118-9CAD-4658-82C4-B142821E11A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29A1D118-9CAD-4658-82C4-B142821E11A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C99AEF5F-CA49-449B-9048-AEF4AFC49A81}
+	EndGlobalSection
+EndGlobal

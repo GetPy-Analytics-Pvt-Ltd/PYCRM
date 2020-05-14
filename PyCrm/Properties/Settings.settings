@@ -1,0 +1,99 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PYCRM.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EmailDomains" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;@gmail.com&lt;/string&gt;
+  &lt;string&gt;@yahoo.in&lt;/string&gt;
+  &lt;string&gt;@outlook.com&lt;/string&gt;
+  &lt;string&gt;@getpy.biz&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="Ethnicity" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Hindu&lt;/string&gt;
+  &lt;string&gt;Islamic&lt;/string&gt;
+  &lt;string&gt;Cristian&lt;/string&gt;
+  &lt;string&gt;Bhuddist&lt;/string&gt;
+  &lt;string&gt;Sikh&lt;/string&gt;
+  &lt;string&gt;Jain&lt;/string&gt;
+  &lt;string&gt;Ethist&lt;/string&gt;
+  &lt;string&gt;Other&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="City" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Bengaluru&lt;/string&gt;
+  &lt;string&gt;Manipal&lt;/string&gt;
+  &lt;string&gt;Hubli&lt;/string&gt;
+  &lt;string&gt;Mangalore&lt;/string&gt;
+  &lt;string&gt;Gulbarga&lt;/string&gt;
+  &lt;string&gt;Davangere&lt;/string&gt;
+  &lt;string&gt;Mysore &lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="State" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Andaman and Nicobar&lt;/string&gt;
+  &lt;string&gt;Andhra Pradesh&lt;/string&gt;
+  &lt;string&gt;Arunachal Pradesh&lt;/string&gt;
+  &lt;string&gt;Assam&lt;/string&gt;
+  &lt;string&gt;Bihar&lt;/string&gt;
+  &lt;string&gt;Chandigarh&lt;/string&gt;
+  &lt;string&gt;Chhattisgarh&lt;/string&gt;
+  &lt;string&gt;Dadra&lt;/string&gt;
+  &lt;string&gt;Daman&lt;/string&gt;
+  &lt;string&gt;Delhi&lt;/string&gt;
+  &lt;string&gt;Goa&lt;/string&gt;
+  &lt;string&gt;Gujarat&lt;/string&gt;
+  &lt;string&gt;Haryana&lt;/string&gt;
+  &lt;string&gt;Himachal&lt;/string&gt;
+  &lt;string&gt;Jammu&lt;/string&gt;
+  &lt;string&gt;Jharkhand&lt;/string&gt;
+  &lt;string&gt;Karnataka&lt;/string&gt;
+  &lt;string&gt;Kerala&lt;/string&gt;
+  &lt;string&gt;Lakshadweep&lt;/string&gt;
+  &lt;string&gt;Madhya Pradesh&lt;/string&gt;
+  &lt;string&gt;Maharashtra&lt;/string&gt;
+  &lt;string&gt;Manipur&lt;/string&gt;
+  &lt;string&gt;Meghalaya&lt;/string&gt;
+  &lt;string&gt;Mizoram&lt;/string&gt;
+  &lt;string&gt;Nagaland&lt;/string&gt;
+  &lt;string&gt;Odisha&lt;/string&gt;
+  &lt;string&gt;Pondicherry&lt;/string&gt;
+  &lt;string&gt;Punjab&lt;/string&gt;
+  &lt;string&gt;Rajasthan&lt;/string&gt;
+  &lt;string&gt;Sikkim&lt;/string&gt;
+  &lt;string&gt;Tamil&lt;/string&gt;
+  &lt;string&gt;Tripura&lt;/string&gt;
+  &lt;string&gt;Uttarakhand&lt;/string&gt;
+  &lt;string&gt;Uttar Pradesh&lt;/string&gt;
+  &lt;string&gt;West Bengal&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="AgeGroup" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;below 10&lt;/string&gt;
+  &lt;string&gt;10-15&lt;/string&gt;
+  &lt;string&gt;15-25&lt;/string&gt;
+  &lt;string&gt;25-40&lt;/string&gt;
+  &lt;string&gt;40-60&lt;/string&gt;
+  &lt;string&gt;60 above&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+    <Setting Name="Gender" Type="System.Collections.Specialized.StringCollection" Scope="Application">
+      <Value Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;string&gt;Male&lt;/string&gt;
+  &lt;string&gt;Female&lt;/string&gt;
+  &lt;string&gt;Other&lt;/string&gt;
+&lt;/ArrayOfString&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
