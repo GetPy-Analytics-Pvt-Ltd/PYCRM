@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3D30F068-D2E7-4E39-92C1-18AA5013155E}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>PYCRM</RootNamespace>
     <AssemblyName>PYCRM</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>

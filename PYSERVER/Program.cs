@@ -11,8 +11,7 @@ using System.Text;
 using System.Threading;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Auth;
-
-
+using System.Diagnostics;
 
 namespace PyServer
 {
@@ -37,6 +36,14 @@ namespace PyServer
 
         static void Main(string[] args)
         {
+
+            System.Diagnostics.Process[] processes = Process.GetProcessesByName("PYSERVER");
+            if (processes.Length > 1)
+            { 
+                Log("Can't duplicate run this program,it is already running in the background.");
+                return;
+            }
+
             pyserverClass mainProgram = new pyserverClass();
             mainProgram.init();
             mainProgram.directoryWatcher();

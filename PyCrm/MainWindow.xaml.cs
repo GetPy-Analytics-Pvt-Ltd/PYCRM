@@ -22,6 +22,7 @@ using System.Data.SQLite;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.IO;
+using System.Diagnostics;
 
 namespace PYCRM
 {
@@ -49,6 +50,13 @@ namespace PYCRM
 
         public MainWindow()
         {
+            
+            System.Diagnostics.Process[] processes = Process.GetProcessesByName("PYCRM");
+            if (processes.Length > 1)
+            {
+                MessageBox.Show("Application is already running");
+                Application.Current.Shutdown();
+            }
             InitializeComponent();
             checkForLicenseFile();
             CheckForDBFile();
