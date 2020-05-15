@@ -8,3 +8,6 @@
 15/05/2020 08:48:14 -  Log file with name is C:\\PYCRM\pyServerLog.txt
 15/05/2020 08:49:12 -  Log file with name is C:\\PYCRM\pyServerLog.txt
 15/05/2020 08:50:33 -  Log file with name is C:\\PYCRM\pyServerLog.txt
+15/05/2020 10:19:45 -  Log file with name is C:\\PYCRM\pyServerLog.txt
+15/05/2020 10:21:08 -  Log file with name is C:\\PYCRM\pyServerLog.txt
+15/05/2020 10:37:07 -  Log file with name is C:\\PYCRM\pyServerLog.txt
