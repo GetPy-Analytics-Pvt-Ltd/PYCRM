@@ -381,15 +381,7 @@ namespace PyServer
                 //getting handle to watch directory
                 System.IO.DirectoryInfo watchDirectory = new System.IO.DirectoryInfo(appProps[DIRECTORYWATCHER]);
 
-                //Creating archive directory path
-                string archiveDirPathString = System.IO.Path.Combine(appProps[DIRECTORYWATCHER], "archive");
-
-                //Checking if archive directory exists
-                if (!System.IO.Directory.Exists(archiveDirPathString))
-                {
-                    //if not creating a new directory
-                    System.IO.Directory.CreateDirectory(archiveDirPathString);
-                }
+                
 
                 // infinte loop to keep looking for files in a directory.
                 System.IO.FileInfo[] fileList = watchDirectory.GetFiles();
@@ -423,16 +415,7 @@ namespace PyServer
                                     // Check if Merchant Id of 
 
                                     blobTransfer(file.FullName, file.Name);
-
-
-                                    // if transfer is successful copy file to archive
-                                    string archiveFilePathString = System.IO.Path.Combine(archiveDirPathString, file.Name);
-
-                                    // Copy file from main folder to archive and then delete
-                                    // earlier we tried Move option but since it doesn't have override option trying Copy and delete
-                                    System.IO.File.Copy(file.FullName, archiveFilePathString, true);
-                                    System.IO.File.Delete(file.FullName);
-                                    break;
+                                     break;
                                 }
                                 else
                                 {
@@ -440,7 +423,7 @@ namespace PyServer
                                     System.Threading.Thread.Sleep(2000);
                                     retrycount++;
                                     // max 30 seconds of wait, otherwise come out
-                                    if (retrycount > 15)
+                                    if (retrycount > 2)
                                     {
                                         break;
                                     }
@@ -487,6 +470,7 @@ namespace PyServer
         {
             try
             {
+
                 if (System.IO.File.Exists(fullFilePath))
                 {
                     if (container == null)
@@ -504,6 +488,24 @@ namespace PyServer
                     }
 
                     queueMsgPush(fileName);
+
+                    //Creating archive directory path
+                    string archiveDirPathString = System.IO.Path.Combine(appProps[DIRECTORYWATCHER], "archive");
+
+                    //Checking if archive directory exists
+                    if (!System.IO.Directory.Exists(archiveDirPathString))
+                    {
+                        //if not creating a new directory
+                        System.IO.Directory.CreateDirectory(archiveDirPathString);
+                    }
+
+                    // if transfer is successful copy file to archive
+                    string archiveFilePathString = System.IO.Path.Combine(archiveDirPathString, fileName);
+
+                    // Copy file from main folder to archive and then delete
+                    // earlier we tried Move option but since it doesn't have override option trying Copy and delete
+                    System.IO.File.Copy(fullFilePath, archiveFilePathString, true);
+                    System.IO.File.Delete(fullFilePath);
 
                     LogParam("File sent SUCCESSFULLY, file name:", fullFilePath);
                 }

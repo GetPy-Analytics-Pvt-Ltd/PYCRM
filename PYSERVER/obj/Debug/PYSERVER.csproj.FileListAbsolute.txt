@@ -8,7 +8,6 @@ C:\Users\kirti\Desktop\PYCRM\PYSERVER\bin\Debug\Microsoft.Azure.KeyVault.Core.xm
 C:\Users\kirti\Desktop\PYCRM\PYSERVER\bin\Debug\Microsoft.WindowsAzure.Storage.pdb
 C:\Users\kirti\Desktop\PYCRM\PYSERVER\bin\Debug\Microsoft.WindowsAzure.Storage.xml
 C:\Users\kirti\Desktop\PYCRM\PYSERVER\bin\Debug\Newtonsoft.Json.xml
-C:\Users\kirti\Desktop\PYCRM\PYSERVER\obj\Debug\PYSERVER.csprojResolveAssemblyReference.cache
 C:\Users\kirti\Desktop\PYCRM\PYSERVER\obj\Debug\PYSERVER.csproj.CoreCompileInputs.cache
 C:\Users\kirti\Desktop\PYCRM\PYSERVER\obj\Debug\PYSERVER.exe
 C:\Users\kirti\Desktop\PYCRM\PYSERVER\obj\Debug\PYSERVER.pdb
