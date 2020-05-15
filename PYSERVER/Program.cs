@@ -347,7 +347,9 @@ namespace PyServer
             {
                 prserverReadConfigFile();
             }
-            if (MERCHANT_ID == GetMerchantIdFromFileName(fileName))
+
+#if false
+                if (MERCHANT_ID == GetMerchantIdFromFileName(fileName))
             {
                 return true;
             }
@@ -355,6 +357,10 @@ namespace PyServer
             {
                 return false;
             }
+
+#endif
+                // Always return TRUE
+                return true;
         }
 
         private void transferFilesToAzure()
@@ -389,7 +395,7 @@ namespace PyServer
 
 
                         //LogParam("file name:" , file.FullName);
-                        if (System.IO.File.Exists(file.FullName) && file.FullName.Contains(".csv"))
+                        if (System.IO.File.Exists(file.FullName) &&( file.FullName.Contains(".csv") || (file.FullName.Contains(".txt"))))
                         {
                             while (true)
                             {

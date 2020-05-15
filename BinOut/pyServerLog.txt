@@ -1,0 +1,10 @@
+14/05/2020 23:53:28 -  Log file with name is C:\\PYCRM\pyServerLog.txt
+15/05/2020 08:16:12 -  Log file with name is C:\\PYCRM\pyServerLog.txt
+15/05/2020 08:18:42 -  Log file with name is C:\\PYCRM\pyServerLog.txt
+15/05/2020 08:18:42 - Exeception in processStaleDataAndLogFile Could not find file 'C:\\PYCRM\pyServerLog.txt'.
+15/05/2020 08:43:26 -  Log file with name is C:\\PYCRM\pyServerLog.txt
+15/05/2020 08:43:26 - Exeception in processStaleDataAndLogFile Could not find file 'C:\\PYCRM\pyServerLog.txt'.
+15/05/2020 08:44:06 -  Log file with name is C:\\PYCRM\pyServerLog.txt
+15/05/2020 08:48:14 -  Log file with name is C:\\PYCRM\pyServerLog.txt
+15/05/2020 08:49:12 -  Log file with name is C:\\PYCRM\pyServerLog.txt
+15/05/2020 08:50:33 -  Log file with name is C:\\PYCRM\pyServerLog.txt

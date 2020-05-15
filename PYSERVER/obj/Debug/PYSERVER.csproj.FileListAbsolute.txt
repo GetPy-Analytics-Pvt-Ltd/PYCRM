@@ -32,3 +32,6 @@ C:\Users\kirti\Desktop\test\PYCRM\PYCRM\PYSERVER\obj\Debug\PYSERVER.csprojResolv
 C:\Users\kirti\Desktop\test\PYCRM\PYCRM\BinOut\PYSERVER.exe.config
 C:\Users\kirti\Desktop\test\PYCRM\PYCRM\BinOut\PYSERVER.exe
 C:\Users\kirti\Desktop\test\PYCRM\PYCRM\BinOut\PYSERVER.pdb
+C:\Users\kirti\Desktop\PYCRM\BinOut\PYSERVER.exe.config
+C:\Users\kirti\Desktop\PYCRM\BinOut\PYSERVER.exe
+C:\Users\kirti\Desktop\PYCRM\BinOut\PYSERVER.pdb
